@@ -28,7 +28,7 @@ public class APITest {
 		RestAssured.given()
 			.body("{\n"
 					+ "	\"task\": \"TaskAPITest\",\n"
-					+ "	\"dueDate\": \"2021-06-23\"\n"
+					+ "	\"dueDate\": \"2030-06-23\"\n"
 					+ "}")
 			.contentType(ContentType.JSON)
 		.when()
